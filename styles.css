@@ -61,7 +61,6 @@ nav a:hover {
     font-size: 1.2rem;
 }
 
-/* Content Section */
 section.content {
     padding: 20px;
     text-align: left;
@@ -280,7 +279,6 @@ button.donate-now:hover {
 
 .content a {
  text-decoration: underline;
- text-decoration-style: wavy;
 }
 
 .donate {
