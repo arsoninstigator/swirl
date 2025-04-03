@@ -284,3 +284,81 @@ button.donate-now:hover {
 .donate {
     text-align: left;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    background-color: #fce8cf;
+}
+
+.error-box {
+    text-align: center;
+    background: #fac6c7;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 600px;
+}
+
+
+.error-box p {
+    font-size: 1rem;
+    color: #403d39;
+    line-height: 0.9;
+}
+
+.error-box a {
+    color: #72945b; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.error-box a:hover {
+    text-decoration: underline;
+}
+
+.error-image {
+    margin-top: 20px;
+    width: 570px;
+    height: auto;
+}
+
+.newsletter {
+    background: #fac6c7; 
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 3px 3px 0px #403d39;
+    text-align: center;
+    max-width: 400px;
+}
+
+.newsletter input {
+    width: 65%;
+    padding: 10px;
+    border: 2px solid #403d39;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    background: #fce8cf; 
+    color: #403d39;
+}
+
+.newsletter button {
+    background: #a8d18d;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background: #8fbf74;
+}
+
+#newsletter-message {
+    font-size: 0.9rem;
+    color: #403d39;
+}
